@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang='en'>
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width'>
+	<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display: none;">
+	<symbol class="closepicture" viewBox="-20 -20 40 40" id="closer" xmlns="http://www.w3.org/2000/svg" width=40 height=40 fill="none">
+		<defs>
+			<mask id="cat" >
+				<circle r=15 cx=0 cy=0 fill='white'  />
+				<path transform="translate(-7.5 -7.5)" d="M9 0H6V6H0V9H6V15H9V9H15V6H9V0Z" style="fill:black;stroke-width:1;stroke:black" x=7 viewBox="0 0 1 1"  width="15" height="15"/>		
+			</mask>
+		</defs>
+		<g id="closer">
+	
+	<circle r=15 cx=0 cy=0 fill='grey' fill-opacity="0.5" mask="url(#cat)"  />
+	
+	</g>
+	</symbol>
+</svg>
+
+<!--<svg >
+    <use xlink:href="#closer"></use> 
+</svg> -->
+
+<a href="https://drive.google.com/drive/folders/1Xzpo66Kk5W9bKDN2qV-NGxfkQtJIorzB"> ссылка</a>
+
+<div class='container'>
+	<header class="header" id='headermenu'>
+	<div class='logo'> <img src="img/logotest.svg">	</div>
+		<nav class="headernav">
+			
+			<!--<div class="nav-toggle" ><button class='hamburger'></button></div> <button class='findbutton'></button>     <circle r=15 cx=0 cy=0 fill='green'  />
+			<rect  width='100%'  height='100%' rx=10px ry=10px style="fill:white;stroke-width:1;stroke:white"    /> -->
+			
+				<ul id="menu" class='menu'>
+					<li class='over'><a class='overtext'href=""><span>Main</span></a></li>
+					<li class='over'><a class='overtext' href=""><span>Works</span></a></li>
+					<li class='over'><a class='overtext' href=""><span>About work</span></a></li>
+					<li class='over'><a class='overtext' href=""><span>About work About</span></a></li>
+				</ul>
+		   
+    </nav>
+	<div class='finder'>
+	<div classname='buttsearcharea'>
+	<button class="buttsearchtag" id="buttsearchtag" onClick='selectTags()'></button>
+	</div>		<!--<div class='searchinput'>
+			
+				<form action="" method="post" id="searchform">
+					<button class="buttsearch" type="submit"></button>
+					<input type="search" placeholder="Искать на сайте...">
+					
+				</form>
+			</div>	 -->		
+		
+		<div id="dropsearch" class="dropsearch">
+			<div class='dropblock'>	
+				<div class='tagsearch' onClick='tester()'><input type="checkbox" ><label>Поиск</label></div>
+				<div class='tagsearch' onClick='tester()'><input type="checkbox" ><label>Поиск</label></div>
+				<div class='tagsearch' onClick='tester()'><input type="checkbox" ><label>Поиск</label></div>
+				<div class='tagsearch' onClick='tester()'><input type="checkbox" ><label>Поиск</label></div>
+			</div>
+				<div class='dividedrop'> </div>
+			<div class='toggleparam'>
+				<div class='togglecheck'>			
+					<input type="checkbox" id="toggle"/>
+					<label for="toggle"></label>
+				</div>
+				<div class="togglesearch"><button class="buttsearchtag" ></button> </div>
+			</div>
+	   </div>
+	   </div>
+	</header>
+
+	<div class='mainpart'>
+		<main class='main'> 
+			<div class='main-header'>main - header </div>
+			<article class='article'>ertertretre
+			<div class='imagebord'>
+				<img class='image' src='img/1.jpg' onClick="openPicture(event)">
+				<div class='noteimage'> Подпись под картинкой.2022.</div>
+				
+			<!--	<svg class='borderpicture' width='100%' height='100%' viewBox="0 0 1 1" preserveAspectRatio="xMinYMin meet" >
+				<defs>
+					 <mask id="cat" >
+						<rect  width='100%'  height='100%' rx=10px ry=10px style="fill:white;stroke-width:1;stroke:white"    />
+					 </mask>
+				</defs>
+					
+					 <image x="0" y="0" width="100%" height="100%"  xlink:href="img/1.jpg" mask="url(#cat)" />
+				</svg>-->
+			</div>
+			<div>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			</div>
+			gfhgfhf</article>
+
+		
+
+		</main>
+		<aside class='aside'>
+			<div class='asideup'><span>asideup<br><br><br><br><br></span></div>
+			<div class='asidedown'><span>asidedown<br><br><br><br><br><br></span></div>
+		</aside>
+	</div>
+	<footer class='footer'> 
+		<nav class='footernav'>
+		
+			<ul id="menufooter" class='menufooter'>
+					<li class='over'><a class='overtext'href=""><span>Main</span></a></li>
+					<li class='over'><a class='overtext' href=""><span>Works</span></a></li>
+					<li class='over'><a class='overtext' href=""><span>About work</span></a></li>
+					<li class='over'><a class='overtext' href=""><span>About work About</span></a></li>
+					<li class='over'><a class='overtext' href=""><span>>>>> More</span></a></li>
+				</ul>
+		 </nav>
+		
+		<!--<div class='nextmenu'><button class='nextmenubutton'><a class='buttonsquare' href="">>>> More</a></button></div>-->
+	</footer>
+
+</div>
+<div id='fade' class='overlay' onClick="deleteOverlay()"> </div>
+<div id='light' class='light-content' onClick="deleteOverlay()"> 
+		<div id='overpicture' class='overpicture' onClick="cancelAction(event)"></div>
+</div>
+
+<script src="js.js"></script>
+</body>
+</html>
+
+
+
